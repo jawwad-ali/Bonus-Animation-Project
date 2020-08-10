@@ -1,0 +1,9 @@
+.BigProfilePic{
+    width: 100%;
+    height:100vh;
+}
+@media only screen and (max-width:600px){
+    .BigProfilePic{
+        height: 80vh;
+    }
+}

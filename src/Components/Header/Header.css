@@ -1,0 +1,32 @@
+.header{
+    background-image: url("../../images/headerBgImg.jpg");
+    background-position: center;
+    background-size: cover;
+    height:102vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Rowdies', cursive;
+    color:white;
+    font-size:70px;
+}
+.nestedHeading{
+    font-size:35px;
+    text-align: center;
+}
+@media only screen and (max-width:600px){
+    .header{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    h1{
+        font-size:45px;
+    }
+    .nestedHeading{
+        font-size:25px;
+    }
+}

@@ -1,0 +1,55 @@
+.contactUs{
+    height: 100vh;
+    background: #0C1B31;
+}
+.contactLeftDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-size:20px;
+    color:#e9503e;
+    margin-top: 250px;
+    float: right;
+}
+.contactUsText{
+    font-size:35px;
+    font-family: 'Yantramanav', sans-serif;
+    position: relative;
+    top:60px;
+    left:100px;    
+    color:#e9503e;
+
+}
+.contactUsName{
+    position: relative;
+    left:-70px;
+    top:170px;
+}
+.contactNumber , .emailAddress , .socailSite{
+    color:#e9503e;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top:225px;
+    text-decoration: underline;
+}
+@media only screen and (max-width:600px){
+    .contactUs{
+        height:150vh;
+    }
+    .contactUsName{
+        position: relative;
+        top:0px;
+        left:-8px;
+    }
+    .contactNumber , .emailAddress , .socailSite{
+        font-size:25px;
+    }
+    .rightDiv{
+        position: relative;
+        left:45px;
+    }
+}
